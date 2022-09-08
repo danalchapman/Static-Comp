@@ -1,0 +1,22 @@
+/* Global Styling */
+body {
+    background-color: #EFEFEF;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+/* Navigation */
+.player-character-menu {
+    background-color: #1D1D1D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.menu-label {
+    color: whitesmoke;
+}
+
+/* Main Body */
+
+/* Cards */
