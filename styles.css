@@ -13,10 +13,44 @@ body {
     margin: 0px;
 }
 
+.link-box {
+    display: flex;
+}
+
+.view {
+    background-color: #1D1D1D;
+    border: none;
+    color: antiquewhite;
+    cursor: not-allowed;
+    padding: 15px 15px 0px 20px;
+}
+
 .menu-label {
     color: whitesmoke;
+    padding-right: 15px;
 }
 
 /* Main Body */
+.main-content {
+    border: 1px solid orangered;
+    height: 100vh;
+    /* overflow-y: scroll; */
+}
+
+.character-cards {
+    margin-left: 8px;
+}
 
 /* Cards */
+.card-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    border: 1px solid green;
+    font-size: smaller;
+    margin: 5px;
+    width: 200px;
+}
