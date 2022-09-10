@@ -2,6 +2,7 @@
 body {
     background-color: #EFEFEF;
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    margin: 0px;
 }
 
 /* Navigation */
@@ -10,7 +11,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0px;
 }
 
 .link-box {
@@ -32,7 +32,6 @@ body {
 
 /* Main Body */
 .main-content {
-    border: 1px solid orangered;
     height: 100vh;
     /* overflow-y: scroll; */
 }
@@ -49,8 +48,52 @@ body {
 }
 
 .card {
-    border: 1px solid green;
-    font-size: smaller;
-    margin: 5px;
+    border: 1px solid #888888;
+    box-shadow: 1px 1px #888888;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    justify-content: space-evenly;
+    margin: 5px 1px;
+    padding: 8px;
     width: 200px;
+}
+
+.character-top-card {
+    margin: 0px;
+}
+
+.character-name {
+    margin-bottom: 0px;
+}
+
+.character-info {
+    margin-top: 0px;
+}
+
+.character-sheet {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.character-info, 
+.character-sheet {
+    font-size: 10px;
+}
+
+.character-playlist,
+.character-current-level {
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+
+.character-level {
+    color: #00B1FA;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 3px;
+}
+
+.character-playlist-name {
+    margin-top: 0px;
 }
