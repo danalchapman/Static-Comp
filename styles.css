@@ -29,8 +29,27 @@ body {
     color: whitesmoke;
 }
 
+.nav-icon {
+    height: 14px;
+    margin: 10px 5px 0px 0px;
+    width: 14px;
+}
+
+.menu-text {
+    display: flex;
+    flex-direction: column;
+}
+
 .menu-label {
     color: whitesmoke;
+    padding-right: 15px;
+}
+
+.menu-users {
+    color: #00B1FA;
+    display: flex;
+    font-size: 12px;
+    justify-content: flex-end;
     padding-right: 15px;
 }
 
