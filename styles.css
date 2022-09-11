@@ -1,0 +1,103 @@
+/* Global Styling */
+body {
+    background-color: #EFEFEF;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    margin: 0px;
+}
+
+/* Navigation */
+.player-character-menu {
+    background-color: #2F2F2F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.link-box {
+    display: flex;
+}
+
+.view {
+    background-color: #2F2F2F;
+    border: none;
+    color: #8D8D8D;
+    cursor: not-allowed;
+    padding: 15px 15px 0px 20px;
+}
+
+.characters-main {
+    color: whitesmoke;
+}
+
+.menu-label {
+    color: whitesmoke;
+    padding-right: 15px;
+}
+
+/* Main Body */
+.main-content {
+    height: 100vh;
+}
+
+.character-cards {
+    margin-left: 8px;
+}
+
+/* Cards */
+.card-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 3px;
+    color: #474747;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    justify-content: space-evenly;
+    margin: 5px 1px;
+    padding: 8px;
+    width: 200px;
+}
+
+.character-top-card {
+    margin: 0px;
+}
+
+.character-name {
+    margin-bottom: 0px;
+}
+
+.character-info {
+    color: grey;
+    margin-top: 0px;
+}
+
+.character-sheet {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.character-info, 
+.character-sheet {
+    font-size: 10px;
+}
+
+.character-playlist,
+.character-current-level {
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+
+.character-level {
+    color: #00B1FA;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 3px;
+}
+
+.character-playlist-name {
+    margin-top: 0px;
+}
