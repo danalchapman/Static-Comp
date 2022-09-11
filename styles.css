@@ -7,7 +7,7 @@ body {
 
 /* Navigation */
 .player-character-menu {
-    background-color: #1D1D1D;
+    background-color: #2F2F2F;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -18,11 +18,15 @@ body {
 }
 
 .view {
-    background-color: #1D1D1D;
+    background-color: #2F2F2F;
     border: none;
-    color: antiquewhite;
+    color: #8D8D8D;
     cursor: not-allowed;
     padding: 15px 15px 0px 20px;
+}
+
+.characters-main {
+    color: whitesmoke;
 }
 
 .menu-label {
@@ -48,6 +52,7 @@ body {
 
 .card {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 3px;
+    color: #474747;
     display: flex;
     flex-direction: column;
     font-size: 12px;
@@ -66,6 +71,7 @@ body {
 }
 
 .character-info {
+    color: grey;
     margin-top: 0px;
 }
 
