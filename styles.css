@@ -30,8 +30,9 @@ body {
 }
 
 .nav-icon {
+    filter: invert(100%);
     height: 14px;
-    margin: 10px 5px 0px 0px;
+    margin: 12px 5px 0px 0px;
     width: 14px;
 }
 
@@ -42,15 +43,27 @@ body {
 
 .menu-label {
     color: whitesmoke;
+    font-size: 24px;
+    font-weight: lighter;
     padding-right: 15px;
+    margin-top: 10px;
 }
 
 .menu-users {
     color: #00B1FA;
+    cursor: not-allowed;
     display: flex;
     font-size: 12px;
     justify-content: flex-end;
+    margin-bottom: 0px;
     padding-right: 15px;
+}
+
+.users-icon {
+    height: 14px;
+    filter: invert(100%);
+    margin: 0px 5px 0px 3px;
+    width: 14px;
 }
 
 /* Main Body */
